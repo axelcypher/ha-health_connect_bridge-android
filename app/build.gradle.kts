@@ -1,3 +1,5 @@
+import org.jetbrains.kotlin.gradle.dsl.JvmTarget
+
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
@@ -33,9 +35,11 @@ android {
         targetCompatibility = JavaVersion.VERSION_17
     }
 
-    kotlinOptions {
-        jvmTarget = "17"
-        freeCompilerArgs += "-Xjspecify-annotations=strict"
+    kotlin {
+        compilerOptions {
+            jvmTarget.set(JvmTarget.JVM_17)
+            freeCompilerArgs.add("-Xjspecify-annotations=strict")
+        }
     }
 
     buildFeatures {
@@ -67,4 +71,3 @@ dependencies {
 
     testImplementation("junit:junit:4.13.2")
 }
-

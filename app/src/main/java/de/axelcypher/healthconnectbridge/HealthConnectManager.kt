@@ -44,7 +44,7 @@ class HealthConnectManager(context: Context) {
     }
 
     fun settingsIntent(): Intent =
-        Intent(HealthConnectClient.getHealthConnectSettingsAction())
+        Intent(HealthConnectClient.ACTION_HEALTH_CONNECT_SETTINGS)
             .addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
 
     private fun client(): HealthConnectClient = HealthConnectClient.getOrCreate(appContext)
@@ -55,4 +55,3 @@ class HealthConnectManager(context: Context) {
         val REQUIRED_PERMISSIONS: Set<String> = setOf(WRITE_WEIGHT_PERMISSION)
     }
 }
-
