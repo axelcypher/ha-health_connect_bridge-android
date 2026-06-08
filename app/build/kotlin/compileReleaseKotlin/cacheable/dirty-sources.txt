@@ -1,0 +1,9 @@
+C:\Users\t.pendzialek.HELLMANN\Documents\Codex\side\app\src\main\java\de\axelcypher\healthconnectbridge\WeightSyncRepository.kt
+C:\Users\t.pendzialek.HELLMANN\Documents\Codex\side\app\src\main\java\de\axelcypher\healthconnectbridge\ui\MainScreen.kt
+C:\Users\t.pendzialek.HELLMANN\Documents\Codex\side\app\src\main\java\de\axelcypher\healthconnectbridge\PermissionsRationaleActivity.kt
+C:\Users\t.pendzialek.HELLMANN\Documents\Codex\side\app\src\main\java\de\axelcypher\healthconnectbridge\WeightBroadcastReceiver.kt
+C:\Users\t.pendzialek.HELLMANN\Documents\Codex\side\app\src\main\java\de\axelcypher\healthconnectbridge\AppPrefs.kt
+C:\Users\t.pendzialek.HELLMANN\Documents\Codex\side\app\src\main\java\de\axelcypher\healthconnectbridge\HealthConnectManager.kt
+C:\Users\t.pendzialek.HELLMANN\Documents\Codex\side\app\src\main\java\de\axelcypher\healthconnectbridge\WeightIntentParser.kt
+C:\Users\t.pendzialek.HELLMANN\Documents\Codex\side\app\src\main\java\de\axelcypher\healthconnectbridge\DuplicateGuard.kt
+C:\Users\t.pendzialek.HELLMANN\Documents\Codex\side\app\src\main\java\de\axelcypher\healthconnectbridge\MainActivity.kt
